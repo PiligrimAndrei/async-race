@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #173750;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 0 10px;
+  position: relative;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+main {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+button,
+input {
+  font-family: "Robot", sans-serif;
+}

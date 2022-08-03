@@ -1,0 +1,26 @@
+export const cars = {
+  mark: [
+    'bmw',
+    'mazda',
+    'volvo',
+    'mercedes-benz',
+    'ferrari',
+    'nissan',
+    'honda',
+    'porsche',
+    'tesla',
+    'toyota',
+  ],
+  model: [
+    'rx',
+    'x7',
+    'm22',
+    's63',
+    '488',
+    'r34',
+    'civic',
+    '570',
+    'model x',
+    '499',
+  ],
+};
