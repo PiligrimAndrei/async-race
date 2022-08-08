@@ -1,12 +1,12 @@
 import { IRoute } from '../interfaces';
 import { Component } from '../utils/component';
 import { Garage } from '../pages/garage/garage';
+import { Winners } from '../pages/winners/winners';
 
 export class Router {
   private readonly routes: Array<IRoute>;
   private defaultRoute: IRoute;
 
-  // Pages
   garagePage: Component;
   winnersPage: Component | undefined;
 
@@ -18,6 +18,13 @@ export class Router {
         name: '/',
         component: () => {
           this.rootElement.append(this.garagePage.element);
+        },
+      },
+      {
+        name: '/winners',
+        component: () => {
+          this.winnersPage = new Winners(this.rootElement);
+          this.rootElement.append(this.winnersPage.element);
         },
       },
     ];

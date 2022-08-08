@@ -114,6 +114,7 @@ export class Garage extends Component {
 
   private async removeCar(carId: number): Promise<void> {
     await deleteCar(carId);
+    await deleteWinner(carId);
     await this.getAllCars(this.page);
   }
   private async generateRandomCars(): Promise<void> {

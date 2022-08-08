@@ -49,7 +49,7 @@
   width: 100%;
   position: relative;
 
-  &:after {
+  /* &:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -63,7 +63,7 @@
     background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
     background-size: 500% auto;
     animation: gradient 3s linear infinite;
-  }
+  }*/
 
   input {
     display: block;

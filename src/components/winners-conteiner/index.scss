@@ -1,0 +1,47 @@
+.winners-title {
+  margin-bottom: 25px;
+}
+
+.winner-items-title {
+  color: black;
+  font-weight: bold;
+  background-color: #baedff;
+  padding: 10px 0;
+  margin-top: 20px !important;
+}
+
+.winner-item {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+
+  &>div {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+  &-id {
+    width: 5% !important;
+  }
+
+  &-arrow {
+    width: 15px;
+    margin-left: 5px;
+  }
+
+  &-wins,
+  &-time {
+    cursor: pointer;
+  }
+
+  &-active {
+    img {
+      transform: rotate(180deg);
+    }
+  }
+}
