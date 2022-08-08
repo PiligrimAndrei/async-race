@@ -1,0 +1,59 @@
+.garage-item-top {
+  display: flex;
+  align-items: center;
+
+  .btn:not(:first-child) {
+    margin: 0 10px;
+  }
+}
+
+.garage-item {
+  margin-top: 20px;
+
+  span {
+    color: orange;
+    font-size: 16px;
+  }
+}
+
+.garage-item-field {
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 52px;
+  border-bottom: 2px dashed #ffffff;
+}
+
+.garage-item-control-block {
+  position: absolute;
+
+  .btn:not(:first-child) {
+    margin-left: 8px;
+  }
+}
+
+.car-image {
+  position: absolute;
+  left: 100px;
+  width: 100px;
+  height: 50px;
+}
+
+.car-finish {
+  left: 100%;
+}
+
+.car-animation {
+  animation: startEngine ease;
+  transition: left ease;
+}
+
+.finish-flag {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 90px;
+}
+
+.garage-container {
+  margin-top: 25px;
+}

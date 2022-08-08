@@ -1,0 +1,97 @@
+.garage-options {
+  max-width: 500px;
+}
+
+.garage-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  .garage-race-button,
+  .garage-reset-button {
+    width: 25%;
+  }
+
+  .garage-generate-button {
+    width: 45%;
+  }
+}
+
+.garage-button {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.garage-inputs {
+  display: flex;
+  align-items: center;
+}
+
+.garage-button {
+  margin-left: 10px;
+}
+
+.garage-create-inputs,
+.garage-update-inputs {
+  position: relative;
+
+  input[type="color"] {
+    width: 20%;
+    height: 40px;
+    background-color: #baedff;
+    border: 0;
+    margin-left: 10px;
+  }
+}
+
+.garage-input {
+  width: 100%;
+  position: relative;
+
+  /* &:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 3px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+  }*/
+
+  input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: #1b1a20;
+    padding: 15px;
+    color: #fff;
+    font-family: Roboto;
+    transition: 0.1s;
+    cursor: default;
+    font-size: 15px;
+    cursor: text;
+    position: relative;
+    border: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.garage-update-inputs {
+  margin-top: 10px;
+}
